@@ -1,24 +1,29 @@
 // import { _slideDown, _slideUp, _slideToggle } from "./function";
  
- import addDate from "./modules/addDate";
- import scrollUp from "./modules/scrollUp";
- import initCountdown from "./modules/timer-countdown";
- import tabs from "./modules/tabs";
- import popup from "./modules/popup";
- import spollers from "./modules/spollers";
+import addDate from "./modules/addDate";
+import scrollUp from "./modules/scrollUp";
+import initCountdown from "./modules/timer-countdown";
+import tabs from "./modules/tabs";
+import popup from "./modules/popup";
+import spollers from "./modules/spollers";
 
- import headerFon from "./modules/headerFon";
- import pageNavigation from "./modules/page-navigation";
- import menuBurger from "./modules/menu-burger";
-
- import products from "./shop/products.json";
+import headerFon from "./modules/headerFon";
+import pageNavigation from "./modules/page-navigation";
+import menuBurger from "./modules/menu-burger";
+//========================
+// import products from "./shop/products.json";
 // import { renderProductCards } from './shop/productCards.js';
 // import { counterCart } from "./shop/counterCart.js";
- import { paginate } from "./shop/paginatiion.js";
- import { closeCart, openCart } from "./shop/cartPopup.js";
- import { cartData } from "./shop/cartData.js";
-
-
+// import { paginate } from "./shop/paginatiion.js";
+// import { closeCart, openCart } from "./shop/cartPopup.js";
+// import { cartData } from "./shop/cartData.js";
+//========================
+import products from './store-final/products-small.json';
+import { counterCart } from './store-final/counterCart.js';
+import { paginate } from './store-final/paginatiion.js';
+import { closeCart, openCart } from "./store-final/cartPopup.js";
+import { cartData } from './store-final/cartData.js';
+import { productImagePagination } from './store-final/productImagePagination.js';
 
 'use strict';
  
@@ -46,14 +51,25 @@ window.addEventListener('DOMContentLoaded', () => {
 // pageNavigation();
 
 // menuBurger();
-
- const productContainer = document.querySelector('.js-products-list');//массив с карточками товаров
- //renderProductCards(products, productContainer);
+//========================
+// const productContainer = document.querySelector('.js-products-list');//массив с карточками товаров
+// renderProductCards(products, productContainer);
 // counterCart();
-  paginate(products);
-  openCart();
-  closeCart();
-  cartData();
+// paginate(products);
+// openCart();
+// closeCart();
+// cartData();
+//========================
+
+const productContainer = document.querySelector('.js-products-list');//массив с карточками товаров
+// renderProductCards(products, productContainer);
+// counterCart();
+productImagePagination();
+paginate(products);
+openCart();
+closeCart();
+cartData();
+
 
 
 
