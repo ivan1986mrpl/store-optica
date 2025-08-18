@@ -19,11 +19,12 @@ import menuBurger from "./modules/menu-burger";
 // import { cartData } from "./shop/cartData.js";
 //========================
 import products from './store-final/products-small.json';
+import { productImagePagination } from './store-final/productImagePagination.js';
 import { counterCart } from './store-final/counterCart.js';
 import { paginate } from './store-final/paginatiion.js';
 import { closeCart, openCart } from "./store-final/cartPopup.js";
 import { cartData } from './store-final/cartData.js';
-import { productImagePagination } from './store-final/productImagePagination.js';
+
 
 'use strict';
  
@@ -61,14 +62,12 @@ window.addEventListener('DOMContentLoaded', () => {
 // cartData();
 //========================
 
-const productContainer = document.querySelector('.js-products-list');//массив с карточками товаров
-// renderProductCards(products, productContainer);
-// counterCart();
-productImagePagination();
-paginate(products);
-openCart();
-closeCart();
-cartData();
+  const productContainer = document.querySelector('.js-products-list');//массив с карточками товаров
+  productImagePagination();
+  paginate(products);
+  openCart();
+  closeCart();
+  cartData();
 
 
 

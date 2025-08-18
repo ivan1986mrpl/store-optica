@@ -6,9 +6,6 @@
   align-items: center;
   justify-content: center;
   gap: 16px;
-  &:not(:last-child) {
-    margin-bottom: 16px;
-  }
 
   &__list {
     display: flex;
@@ -50,5 +47,3 @@
   border: 1px solid #000;
 }
 
-.btn-show-more  {
-}
