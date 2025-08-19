@@ -18,7 +18,7 @@ import menuBurger from "./modules/menu-burger";
 // import { closeCart, openCart } from "./shop/cartPopup.js";
 // import { cartData } from "./shop/cartData.js";
 //========================
-import products from './store-final/products-small.json';
+import products from './store-final/products.json';
 import { productImagePagination } from './store-final/productImagePagination.js';
 import { counterCart } from './store-final/counterCart.js';
 import { paginate } from './store-final/paginatiion.js';
