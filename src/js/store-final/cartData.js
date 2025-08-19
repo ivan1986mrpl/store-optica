@@ -77,21 +77,20 @@ const cartData = () => {
     li.innerHTML = `
       <span class="close js-remove"></span>
       <div class="item-cart__wrapper" id="${productInfo.id}">
+        <div class="item-cart__model">${productInfo.model}</div>
         <div class="item-cart__image">
           <img src="${productInfo.photo}" alt="product" class="item-cart__img">
         </div>
-        <div class="item-cart__descr">
-          <div class="item-cart__model">${productInfo.model}</div>
-          <div class="item-cart__counter">
-            <div class="stapper js-counter">
-              <button type="button" class="stapper__button js-minus disabled">–</button>
-              <div class="stapper__number js-current-items">1</div>
-              <button type="button" class="stapper__button js-plus">+</button>
-            </div>
-            <div class="item-cart__price">
-              <span class="item-cart__price-counter js-cart-price" data-price="${productInfo.price}">${productInfo.price}</span>
-              <span class="item-cart__currency">$</span>
-            </div>
+        <div class="item-cart__counter">
+          <div class="stapper js-counter">
+            <button type="button" class="stapper__button js-minus disabled">–</button>
+            <div class="stapper__number js-current-items">1</div>
+            <button type="button" class="stapper__button js-plus">+</button>
+          </div>
+          <div class="item-cart__price">
+            <span class="item-cart__price-counter js-cart-price"
+              data-price="${productInfo.price}">${productInfo.price}</span>
+            <span class="item-cart__currency">$</span>
           </div>
         </div>
       </div>
@@ -148,3 +147,26 @@ const cartData = () => {
 export {
   cartData
 };
+
+/* 
+      <span class="close js-remove"></span>
+      <div class="item-cart__wrapper" id="${productInfo.id}">
+        <div class="item-cart__image">
+          <img src="${productInfo.photo}" alt="product" class="item-cart__img">
+        </div>
+        <div class="item-cart__descr">
+          <div class="item-cart__model">${productInfo.model}</div>
+          <div class="item-cart__counter">
+            <div class="stapper js-counter">
+              <button type="button" class="stapper__button js-minus disabled">–</button>
+              <div class="stapper__number js-current-items">1</div>
+              <button type="button" class="stapper__button js-plus">+</button>
+            </div>
+            <div class="item-cart__price">
+              <span class="item-cart__price-counter js-cart-price" data-price="${productInfo.price}">${productInfo.price}</span>
+              <span class="item-cart__currency">$</span>
+            </div>
+          </div>
+        </div>
+      </div>
+*/

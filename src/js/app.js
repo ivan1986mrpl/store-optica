@@ -1,15 +1,15 @@
 // import { _slideDown, _slideUp, _slideToggle } from "./function";
  
-import addDate from "./modules/addDate";
-import scrollUp from "./modules/scrollUp";
-import initCountdown from "./modules/timer-countdown";
-import tabs from "./modules/tabs";
+// import addDate from "./modules/addDate";
+// import scrollUp from "./modules/scrollUp";
+// import initCountdown from "./modules/timer-countdown";
+// import tabs from "./modules/tabs";
 import popup from "./modules/popup";
-import spollers from "./modules/spollers";
+// import spollers from "./modules/spollers";
 
-import headerFon from "./modules/headerFon";
-import pageNavigation from "./modules/page-navigation";
-import menuBurger from "./modules/menu-burger";
+// import headerFon from "./modules/headerFon";
+// import pageNavigation from "./modules/page-navigation";
+// import menuBurger from "./modules/menu-burger";
 //========================
 // import products from "./shop/products.json";
 // import { renderProductCards } from './shop/productCards.js';
@@ -20,9 +20,9 @@ import menuBurger from "./modules/menu-burger";
 //========================
 import products from './store-final/products.json';
 import { productImagePagination } from './store-final/productImagePagination.js';
-import { counterCart } from './store-final/counterCart.js';
+// import { counterCart } from './store-final/counterCart.js';
 import { paginate } from './store-final/paginatiion.js';
-import { closeCart, openCart } from "./store-final/cartPopup.js";
+// import { closeCart, openCart } from "./store-final/cartPopup.js";
 import { cartData } from './store-final/cartData.js';
 
 
@@ -42,13 +42,9 @@ window.addEventListener('DOMContentLoaded', () => {
 // initCountdown('.countdown', 86440, 'The timer is over'); // Таймер на 1 день (86400 секунд)
 
 // tabs();
-
-// popup();
-
+popup();
 // spollers();
-
- //headerFon();
-
+//  headerFon();
 // pageNavigation();
 
 // menuBurger();
@@ -65,8 +61,8 @@ window.addEventListener('DOMContentLoaded', () => {
   const productContainer = document.querySelector('.js-products-list');//массив с карточками товаров
   productImagePagination();
   paginate(products);
-  openCart();
-  closeCart();
+  // openCart();
+  // closeCart();
   cartData();
 
 
