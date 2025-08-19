@@ -8,14 +8,13 @@
  @use 'base/base';
 
  @use 'blocks/page';
- @use 'blocks/common';
+//  @use 'blocks/common';
  @use 'blocks/header';
- @use 'blocks/footer';
+//  @use 'blocks/footer';
 // @use 'blocks/hero';
 // @use 'blocks/second';
 // @use 'blocks/article';
 @use 'blocks/card';
-
-@use 'blocks/cart-modal';
+@use 'blocks/cart';
 @use 'blocks/products';
 @use 'blocks/pagination';

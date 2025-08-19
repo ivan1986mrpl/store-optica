@@ -1,69 +1,182 @@
 [
   {
-    "category": "glasses-for-vision",
+    "category": "sunglasses",
     "series": "glasses",
     "photo": [
-      "assets/img/san-glass/1.webp",
-      "assets/img/san-glass/2.webp",
-      "assets/img/san-glass/3.webp",
-      "assets/img/san-glass/4.webp"
+      "assets/img/sanglasses/1.webp",
+      "assets/img/sanglasses/2.webp",
+      "assets/img/sanglasses/3.webp",
+      "assets/img/sanglasses/4.webp"
     ],
-    "info": "description model glasses for vision",
+    "info": "description model sunglasses",
     "id": "a813bd03-a375-4ad2-aabd-2a1156c6ca50sgdgs",
     "model": "Sunglasses with UV protection 1",
-    "prices": [
-      200,
-      170
-    ]
+    "label-sale": "true",
+    "label-new": "false",
+    "article": 25455,
+    "stock": 42,
+    "prices": [200, 170]
   },
-    {
-    "category": "glasses-for-vision",
+  {
+    "category": "sunglasses",
     "series": "glasses",
     "photo": [
-      "assets/img/san-glass/11.webp",
-      "assets/img/san-glass/12.webp",
-      "assets/img/san-glass/13.webp",
-      "assets/img/san-glass/14.webp"
+      "assets/img/sanglasses/5.webp",
+      "assets/img/sanglasses/6.webp",
+      "assets/img/sanglasses/7.webp",
+      "assets/img/sanglasses/8.webp"
+    ],
+    "info": "description model sunglasses",
+    "id": "a813bd03-a375-4ad2-aabd-2a1156c6ca50sgdgs",
+    "model": "Sunglasses with UV protection 1",
+    "label-sale": "true",
+    "label-new": "false",
+    "article": 25455,
+    "stock": 42,
+    "prices": [200, 170]
+  },
+  {
+    "category": "sunglasses",
+    "series": "glasses",
+    "photo": [
+      "assets/img/sanglasses/9.webp",
+      "assets/img/sanglasses/10.webp",
+      "assets/img/sanglasses/11.webp",
+      "assets/img/sanglasses/12.webp"
+    ],
+    "info": "description model sunglasses",
+    "id": "a813bd03-a375-4ad2-aabd-2a1156c6ca50sgdgs",
+    "model": "Sunglasses with UV protection 1",
+    "label-sale": "true",
+    "label-new": "false",
+    "article": 25455,
+    "stock": 42,
+    "prices": [200, 170]
+  },
+  {
+    "category": "sunglasses",
+    "series": "glasses",
+    "photo": [
+      "assets/img/sanglasses/15.webp",
+      "assets/img/sanglasses/16.webp",
+      "assets/img/sanglasses/13.webp",
+      "assets/img/sanglasses/17.webp",
+      "assets/img/sanglasses/14.webp"
     ],
     "info": "description model glasses for vision",
     "id": "a813bd03-a375-4ad2-aabd-2a1156c6ca50dgs",
     "model": "Sunglasses with UV protection 2",
-    "prices": [
-      220,
-      190
-    ]
+    "label-sale": "true",
+    "label-new": "false",
+    "article": 25855,
+    "stock": 12,
+    "prices": [220, 190]
   },
-    {
+  {
     "category": "glasses-for-vision",
     "series": "glasses",
     "photo": [
-      "assets/img/san-glass/21.webp",
-      "assets/img/san-glass/22.webp",
-      "assets/img/san-glass/23.webp"
+      "assets/img/glasses-for-vision/1.webp",
+      "assets/img/glasses-for-vision/2.webp",
+      "assets/img/glasses-for-vision/3.webp",
+      "assets/img/glasses-for-vision/7.webp",
+      "assets/img/glasses-for-vision/14.webp"
+    ],
+    "info": "description model glasses for vision",
+    "id": "a813bd03-a375-4ad2-aabd-2a1156c6ca50dgs",
+    "model": "glasses for vision 2",
+    "label-sale": "true",
+    "label-new": "false",
+    "article": 25855,
+    "stock": 12,
+    "prices": [220, 190]
+  },
+  {
+    "category": "glasses-for-vision",
+    "series": "glasses",
+    "photo": [
+      "assets/img/glasses-for-vision/21.webp",
+      "assets/img/glasses-for-vision/22.webp",
+      "assets/img/glasses-for-vision/23.webp"
     ],
     "info": "description model glasses for vision",
     "id": "a813bd03-a375-4ad2-aabd-2a1156c6ca50sdgsdsh",
-    "model": "Sunglasses with UV protection 3",
-    "prices": [
-      100,
-      70
-    ]
+    "model": "glasses for vision 3",
+    "label-sale": "true",
+    "label-new": "false",
+    "article": 25855,
+    "stock": 12,
+    "prices": [100, 70]
   },
-    {
+  {
     "category": "glasses-for-vision",
     "series": "glasses",
     "photo": [
-      "assets/img/san-glass/31.webp",
-      "assets/img/san-glass/32.webp",
-      "assets/img/san-glass/33.webp"
+      "assets/img/glasses-for-vision/31.webp",
+      "assets/img/glasses-for-vision/32.webp",
+      "assets/img/glasses-for-vision/33.webp"
     ],
     "info": "description model glasses for vision",
     "id": "a813bd03-a375-4ad2-aabd-2a1156c6ca5023525",
-    "model": "Sunglasses with UV protection 4",
-    "prices": [
-      250,
-      200
-    ]
+    "model": "glasses for vision 4",
+    "label-sale": "true",
+    "label-new": "false",
+    "article": 25855,
+    "stock": 12,
+    "prices": [250, 200]
+  },
+  {
+    "category": "lenses",
+    "series": "contact-lenses",
+    "photo": [
+      "assets/img/lenses/1.webp",
+      "assets/img/lenses/2.webp",
+      "assets/img/lenses/3.webp",
+      "assets/img/lenses/4.webp"
+    ],
+    "info": "description model contact lenses",
+    "id": "a09221ec-19c0-4274-8474-828d9dd13db9",
+    "model": "model lenses 253",
+    "label-sale": "true",
+    "label-new": "false",
+    "article": 25855,
+    "stock": 12,
+    "prices": [411, 204]
+  },
+  {
+    "category": "lenses",
+    "series": "contact-lenses",
+    "photo": [
+      "assets/img/lenses/5.webp",
+      "assets/img/lenses/6.webp",
+      "assets/img/lenses/7.webp",
+      "assets/img/lenses/8.webp"
+    ],
+    "info": "description model contact lenses",
+    "id": "a09221ec-19c0-4274-8474-828d9dd13db9",
+    "model": "model lenses 252",
+    "label-sale": "true",
+    "label-new": "false",
+    "article": 25855,
+    "stock": 12,
+    "prices": [411, 204]
+  },
+  {
+    "category": "lenses",
+    "series": "contact-lenses",
+    "photo": [
+      "assets/img/lenses/9.webp",
+      "assets/img/lenses/10.webp",
+      "assets/img/lenses/11.webp",
+      "assets/img/lenses/12.webp"
+    ],
+    "info": "description model contact lenses",
+    "id": "a09221ec-19c0-4274-8474-828d9dd13db9",
+    "model": "model lenses 251",
+    "label-sale": "true",
+    "label-new": "false",
+    "article": 25855,
+    "stock": 12,
+    "prices": [411, 204]
   }
-
 ]
